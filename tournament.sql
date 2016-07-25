@@ -8,7 +8,9 @@
 
 -- Connect to tournament database
 
-\c tournament
+DROP DATABASE IF EXISTS tournament;
+CREATE DATABASE tournament;
+\c tournament;
 
 -- Create player table
 
